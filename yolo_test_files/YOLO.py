@@ -7,7 +7,7 @@ from imutils.video import VideoStream
 model = YOLO("yolov3u.pt")
 
 # Capturing the video from source
-cap = cv2.VideoCapture("Japan_dash.mov")
+cap = cv2.VideoCapture("Track_car.mov")
 names = model.names
 # We use a while loop to iterate through the frames of the video
 ret , frame = cap.read()
